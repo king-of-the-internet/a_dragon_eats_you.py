@@ -32,12 +32,12 @@ def diecheck_ssw():
 		global kikkoman_hp
 		kikkoman_hp = kikkoman_hp - dieresult
 		if kikkoman_hp > 0:
-			print "You roll the die, and it landed on %s. Chorimod has %s HP remaining!" % (dieresult, kikkoman_hp)
+			print "You roll the die, and it landed on %s. SSW_Kikkoman has %s HP remaining!" % (dieresult, kikkoman_hp)
 			dieroll();
 			global your_hp
 			your_hp = your_hp - dieresult
 			if your_hp > 0:
-				print "Chorimod furiously rolls his die at you, and it lands on %s. You have %s HP remaining! Press R to roll the die and fight!" % (dieresult, your_hp)
+				print "SSW_Kikkoman furiously rolls his die at you, and it lands on %s. You have %s HP remaining! Press R to roll the die and fight!" % (dieresult, your_hp)
 			else:
 				gameover(curenemy, dieresult); 
 		else:
