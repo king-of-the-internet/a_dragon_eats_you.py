@@ -61,7 +61,7 @@ def finalround():
 	global kikkoman_hp
 	global your_hp
 	print "\nYou sure are a crazy motherfucker, huh? Covered in the blood of your foes you stand there, panting. You have 10HP remaining, when suddenly--!\n"
-	print "A particularly autistic Chorimod approaches, sporting 15HP. Press R to fight for your life!"
+	print "A particularly autistic SSW_Kikkoman approaches, sporting 15HP. Press R to fight for your life!"
 	kikkoman_hp = 15
 	your_hp = 10
 	while kikkoman_hp > 0:
